@@ -22,18 +22,16 @@ vector::~vector() {
 void vector::resize() {
     list* temp = this->array;
 
-    if (this->count == this->size) {
-        this->size *= 2;
-        this->array = new list[this->size];
+    this->size *= 2;
+    this->array = new list[this->size];
 
-        for (int i = 0; i < this->count; i++)
-            this->array[i] = temp[i];
+    for (int i = 0; i < this->count; i++)
+        this->array[i] = temp[i];
 
-        delete[] temp;
-    }
+    delete[] temp;
 }
 
-list &vector::operator[](int index) {
+list& vector::operator[](int index) {
     return this->array[index];
 }
 

@@ -21,6 +21,8 @@ public:
 
     void push(int data);
     void print();
+    void popFront();
+    void popBack();
 };
 
 

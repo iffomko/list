@@ -93,3 +93,19 @@ void list::print() {
 
     std::cout << std::endl;
 }
+
+void list::popFront() {
+    node* next = this->head->getNext();
+    delete this->head;
+    this->head = next;
+}
+
+void list::popBack() {
+    node* current = this->head;
+
+    while (current->getNext() != this->tail)
+        current = current->getNext();
+
+    delete this->tail;
+    this->tail = current;
+}
