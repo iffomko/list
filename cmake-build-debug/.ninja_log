@@ -1,0 +1,11 @@
+# ninja log v5
+57	289	6782071223517474	CMakeFiles/list.dir/vector/vector.cpp.obj	61ff43ab3adcfe78
+74	301	6782071223677495	CMakeFiles/list.dir/list/node.cpp.obj	99ae333ec241fb7c
+38	629	6782071226948218	CMakeFiles/list.dir/list/list.cpp.obj	c741340c9413058e
+4	456	6782071322364038	CMakeFiles/list.dir/main.cpp.obj	cdb0047c1a228024
+3	172	6782071656147379	CMakeFiles/list.dir/vector/vector.cpp.obj	61ff43ab3adcfe78
+173	488	6782071659188070	list.exe	171ffb6c945c5c30
+3	453	6782072102686084	CMakeFiles/list.dir/main.cpp.obj	cdb0047c1a228024
+454	739	6782072105446564	list.exe	171ffb6c945c5c30
+5	601	6782072307457270	CMakeFiles/list.dir/main.cpp.obj	cdb0047c1a228024
+603	993	6782072311308186	list.exe	171ffb6c945c5c30
